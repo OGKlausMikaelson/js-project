@@ -34,3 +34,19 @@ const myFunction = function(){
 }
 
 console.log(typeof BigInt)
+
+// stack (give u a copy) (primitive) heap (reference stored in memory)
+
+let name1 = "raunak srivastava" // this is primitive and goes to stack
+
+name2 = name1 // reference
+name2 = "rancho"
+console.log(name1)
+console.log(name2)
+
+
+
+
+
+
+
